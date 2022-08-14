@@ -1,0 +1,19 @@
+{
+  "name": "linuijs",
+  "version": "1.0.0",
+  "description": "LinUIJS是一个前端js框架，内置大量的函数库和UI组件，涵盖了数学计算，DOM操作，前端安全防护等的基础和高级函数库，可随时调用使用",
+  "main": "LinUIjs.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/LinWin-Cloud/lin-uijs"
+  },
+  "author": "LinWinCloud",
+  "license": "Apache-2"
+}

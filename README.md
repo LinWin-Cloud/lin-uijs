@@ -27,3 +27,9 @@ LinUIJS是一个前端JavaScript框架，内置大量的函数库和UI组件，�
 	|您的HTML文档:
 	在内部添加: <script src="./LinUIJS/LinUIjs.js"></script>
 
+# 帮助与支持
+
+#### LinUIJS持续提供更新服务
+LinUIJS提供免费的不定期更新，欢迎您的使用和关注
+
+#### 文档<a href='doc/Document.md'>LinUIJS文档</>

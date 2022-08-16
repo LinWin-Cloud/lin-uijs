@@ -24,34 +24,21 @@ LinUIJS必须嵌入HTML页面，无法单独成为一个单独的js文件。LinU
 在HTML内添加 <script src="./LinUIJS/LinUIjs.js"></script>
 
 ## LinUIJS使用注意
-在HTML文件内LinUIJS文件编写结构如下
+### 在HTML文件内LinUIJS文件编写结构如下
 
 <!DOCTYPE html>
-
 <html>
-
     <head>
-
         ... ... （头部代码）
-
     </head>
-
     <body>
-
         ... ... ...(其他代码)
-
         <script>
-
-            setTimeout(() => {  
-
+            settimeout(() => {  
                 ... ...（LinUIJS代码）
-
             }, 100);
-
         </script>
-
     </body>
-
 </html>
 
 

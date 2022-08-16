@@ -26,20 +26,20 @@ LinUIJS必须嵌入HTML页面，无法单独成为一个单独的js文件。LinU
 ## LinUIJS使用注意
 ### 在HTML文件内LinUIJS文件编写结构如下
 
-<!DOCTYPE html>
-<html>
-    <head>
-        ... ... （头部代码）
-    </head>
-    <body>
-        ... ... ...(其他代码)
-        <script>
-            settimeout(() => {  
-                ... ...（LinUIJS代码）
-            }, 100);
-        </script>
-    </body>
-</html>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            ... ... （头部代码）
+        </head>
+        <body>
+            ... ... ...(其他代码)
+            <script>
+                settimeout(() => {  
+                    ... ...（LinUIJS代码）
+                }, 100);
+            </script>
+        </body>
+    </html>
 
 
 使用延时函数，因为JavaScript所有JavaScript和LinUIJS库加载完成后

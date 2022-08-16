@@ -17,8 +17,6 @@ var Panel = function(w,h,x=0,y=0,style="false",Class="false")
      */
     try
     {
-        console.log(w);
-        console.log(h);
         var Panel = document.createElement("div");
         //判断是否启用class
         if(Class == "false")
@@ -86,5 +84,5 @@ var Panel = function(w,h,x=0,y=0,style="false",Class="false")
     catch (e)
     {
         console.log("[ERR]Error: "+e);
-    }
+    }   
 }

@@ -17,8 +17,8 @@ LinUIJS必须嵌入HTML页面，无法单独成为一个单独的js文件。LinU
 ### 克隆库
 
 进入服务器网页执行目录内，打开终端（Linux命令）,输入：
-####### git clone https://gitee.com/-/ide/project/LinWin-Cloud/lin-uijs
-####### mv lin-uijs LinUIJS
+###### git clone https://gitee.com/-/ide/project/LinWin-Cloud/lin-uijs
+###### mv lin-uijs LinUIJS
 
 ### 在HTML内导入
 在HTML内添加 <script src="./LinUIJS/LinUIjs.js"></script>

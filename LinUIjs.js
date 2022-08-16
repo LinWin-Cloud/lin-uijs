@@ -16,6 +16,8 @@ function LoadJS(url)
         var script = document.createElement("script");
         script.src = url;
         document.head.appendChild(script);
+        var loadTime = window.performance.timing.domContentLoadedEventEnd-window.performance.timing.navigationStart;  
+        console.log("[!]Load JavaScript: "+url+" ;Done...Using Time: "+loadTime+"ms");
     }
     catch (e)
     {
@@ -23,9 +25,33 @@ function LoadJS(url)
         return null;
     }
 }
+console.log("[!]Load JavaScript ... ...")
 var config = "./LinUIJS/"
-LoadJS(config+"src/Maths.js");
-
+//需要的加载的js文件
+try
+{
+    LoadJS(config+"src/Maths.js");
+    LoadJS(config+"src/add.js");    
+    LoadJS(config+"src/Remove.js");
+    LoadJS(config+"src/SQL_DOM.js");
+    LoadJS(config+"src/XSS_DOM.js");
+    LoadJS(config+"src/Start_Search.js");
+    LoadJS(config+"lib/GetUser_InFo.js");
+    LoadJS(config+"lib/Time.js");
+    LoadJS(config+"UI/LinUI_Alert.js");
+    LoadJS(config+"UI/LinUI_Button.js");
+    LoadJS(config+"UI/LinUI_Img.js");
+    LoadJS(config+"UI/LinUI_Input.js");
+    LoadJS(config+"UI/LinUI_Label.js");
+    LoadJS(config+"UI/LinUI_Link.js");
+    LoadJS(config+"UI/LinUI_Panel.js");
+    LoadJS(config+"UI/LinUI_Table.js");
+    LoadJS(config+"UI/LinUI_SelectMenu.js");
+}
+catch (e)
+{
+    console.log("[!]Load JavaScript Error: "+e);
+}
 
 function Hello()
 {

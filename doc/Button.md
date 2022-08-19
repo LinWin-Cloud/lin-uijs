@@ -21,3 +21,7 @@ Button组件是一个可以在网页上显示按钮的一个组件，可以使�
     /*
      * 此处的document.body可以换成其他元素，使用appendChild便可以添加元素
      */
+
+## LinUI Button的style属性
+1. black_theme 黑色主题
+2. blue_theme 蓝调主题

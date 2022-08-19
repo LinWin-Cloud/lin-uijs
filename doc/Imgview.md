@@ -19,3 +19,8 @@ ImgView组件是一个可以显示图像数据的组件，内置的样式可以�
     var image = new ImgView(宽，高，x偏移量，y偏移量，要显示的图像，选择的内定样式，自定义的类型)
     //在页面中放置元素
     document.body.appendChild(image);
+
+关于ImgView的style属性
+1. Shadows 阴影样式
+2. blur 模糊样式
+3. Grayscale 灰度样式

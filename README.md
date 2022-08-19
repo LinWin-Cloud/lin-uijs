@@ -19,6 +19,8 @@ LinUIJS是一个前端JavaScript框架，内置大量的函数库和UI组件，�
 		//示例创建一个按钮对象
 		var btn = new Button(100,20,100*1+1,0);
 		document.body.appendChild(btn);
+		//水平创建10个按钮，省去一堆前端代码
+		//便捷开发有效
 	}
 
 # 安全性好

@@ -9,5 +9,5 @@ LinUI是一组可以使用前端JavaScript控制的前端组件，几乎支持�
 1. <a href='./AlertUI.md'>AlertUI组件</a>
 2. <a href='./Button.md'>Button组件</a>
 3. <a href='./Imgview.md'>ImgView组件</a>
-
+4. <a href='./Input.md'>Input组件</a>
 
